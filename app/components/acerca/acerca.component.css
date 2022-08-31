@@ -1,0 +1,20 @@
+h1, p {
+    color: beige;
+}
+p {
+    margin: 1px 1px 1px 1px;
+    padding: 1px 1px 1px 1px;
+}
+img {
+    width: 5px;
+}
+
+@media (min-width: 576px){
+    #fotoperfil{
+        position: absolute;
+        width: 55%;
+        border-radius: 100%;
+        box-shadow: 1px 1px 1px yellowgreen;
+        right: 5%;
+    }
+}
